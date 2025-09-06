@@ -1,5 +1,5 @@
 import streamlit as st
-openai_api_key = st.secrets("OPENAI_API_KEY")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import FAISS
 
@@ -52,4 +52,5 @@ user_input = st.text_input("You:", "")
 if user_input:
     # Get response from QLoRA model
     answer = get_qlora_response(user_input)
+
     st.write(answer)
