@@ -1,6 +1,0 @@
-langchain
-langchain-community
-langchain openai pydantic
-faiss-cpu
-openai
-streamlit
