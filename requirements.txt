@@ -1,0 +1,6 @@
+langchain
+langchain-community
+langchain-pydantic
+faiss-cpu
+openai
+streamlit
